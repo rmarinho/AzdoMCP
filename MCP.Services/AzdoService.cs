@@ -1,4 +1,4 @@
-﻿using MCP.Services.Data;
+﻿using MCP.Services.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.TeamFoundation.Build.WebApi;

@@ -1,7 +1,7 @@
 ﻿using Microsoft.TeamFoundation.Build.WebApi;
 using System.Text.Json.Serialization;
 
-namespace VigilantGuide.Services
+namespace MCP.Services.Models
 {
 
     public enum BuildState
