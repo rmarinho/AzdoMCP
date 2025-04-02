@@ -17,6 +17,8 @@ AzdoMCP is a .NET-based project designed to interact with Azure DevOps and other
 
 - .NET 9.0 or later
 - Azure DevOps Personal Access Token (PAT)
+- VSCODE Insiders 
+- Claude
 
 ## Configuration
 
@@ -25,6 +27,18 @@ The project uses environment variables for authentication:
 - `AZDO_PAT`: Azure DevOps Personal Access Token
 
 These can be configured in the `settings.json` file or passed as environment variables.
+
+(Use inputs on VSCode Insiders for your PAT)
+```
+  "inputs": [
+            {
+                "type": "promptString",
+                "id": "azdo-key",
+                "password": true,
+                "description": "AZDO PAT"
+            }
+        ],
+```
 
 ## Running the Project
 
